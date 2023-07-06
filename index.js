@@ -1,7 +1,7 @@
 for(var i = 0; i <document.querySelectorAll(".drum").length; i++){ //to tap into all button
-var clickMe = document.querySelectorAll("button")[i]// Q.selectall ke sath index bhi dena humesa
+var clickMe = document.querySelectorAll("button")[i]//
 clickMe.addEventListener("click",function(){
-    var buttonInnerHTML = this.innerHTML;//this will tap into the text from the button
+    var buttonInnerHTML = this.innerHTML;//
     makeSound(buttonInnerHTML);
     buttonAnimation(buttonInnerHTML);
 });
