@@ -10,12 +10,6 @@ body {
     text-shadow: 3px 0 #DA0463;
   
   }
-  
-  footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
-  }
-  
   .w {
     background-image: url("images/tom1.png");
   }
@@ -48,15 +42,13 @@ body {
     margin: 10% auto;
   }
   
-  .pressed {
+  .love {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
   }
-  
   .red {
     color: red;
   }
-  
   .drum {
     outline: none;
     border: 10px solid #404B69;
