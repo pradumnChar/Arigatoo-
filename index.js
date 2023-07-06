@@ -57,7 +57,7 @@ function makeSound (key)
     }
 };
 function buttonAnimation(pr){
-    document.querySelector("." + pr).classList.add("pressed");
+    document.querySelector("." + pr).classList.add("love");
     setTimeout(function(){
-        document.querySelector("." + pr).classList.remove("pressed");
+        document.querySelector("." + pr).classList.remove("love");
     },100);}
